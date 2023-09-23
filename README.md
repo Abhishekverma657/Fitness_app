@@ -58,7 +58,7 @@ To experience the Fitness App firsthand, follow these steps:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/fitness-app.git
+   https://github.com/Abhishekverma657/Fitness_app.git
    ```
 
 2. Navigate to the project directory:
