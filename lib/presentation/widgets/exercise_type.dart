@@ -33,10 +33,12 @@ class ExerciseType extends StatelessWidget {
                   )
                  ],
                 borderRadius: BorderRadius.circular(12),
-              gradient: LinearGradient(colors: 
-               [Colors.white54,Colors.white12 ,Colors.white70]
-                  // [Color(0xff8e24aa), Color(0xff303030)],
-              ) ),
+              // gradient: LinearGradient(colors: 
+              //  [Colors.white54,Colors.white12 ,Colors.white70]
+              //     // [Color(0xff8e24aa), Color(0xff303030)],
+              // ) ,
+               color: Colors.white54
+              ),
               child: Column(
                 children: [
                   Padding(

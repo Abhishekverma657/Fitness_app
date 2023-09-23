@@ -53,7 +53,7 @@ class ExerciseDetails extends StatelessWidget {
                 child: Text(
                   name,
                   style: const TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                      fontWeight: FontWeight.bold,
                      fontStyle: FontStyle.italic,
                     fontSize: 30,
@@ -76,7 +76,7 @@ class ExerciseDetails extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 20,
                        fontWeight: FontWeight.w600,
-                      color: Colors.black87,
+                      color: Colors.white54,
                     ),
                   ),
                 ),

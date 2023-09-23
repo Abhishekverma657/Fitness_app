@@ -34,13 +34,15 @@ class _SplashScreenState extends State<SplashScreen> {
         ),
         child: Center(
           child: SizedBox(
-            width: MediaQuery.of(context).size.width/2,
-            height: MediaQuery.of(context).size.height/2,
-            child: Container(
-              height: 300,
-              width: 200,
-              child: LottieBuilder.asset(
-                  'assets/lottie_animations/splash_animation.json'),
+        
+            child: Center(
+              child: Container(
+                height: 300,
+                width: 300,
+                
+                child: LottieBuilder.asset(
+                    'assets/lottie_animations/splash_animation.json',fit: BoxFit.cover,),
+              ),
             ),
           ),
         ),

@@ -34,9 +34,11 @@ class Exercises extends StatelessWidget {
           child: Container(
         
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),
-            gradient: LinearGradient(colors: 
-                [ Color.fromARGB(255, 255, 151, 122),Colors.teal, Color.fromARGB(255, 255, 151, 122)],
-            ) ),
+            // gradient: LinearGradient(colors: 
+            //     [ Color.fromARGB(255, 255, 151, 122),Colors.teal, Color.fromARGB(255, 255, 151, 122)],
+            // ) ,
+             color:  Colors.white54
+            ),
             child: Column(
               children: [
                 Padding(
